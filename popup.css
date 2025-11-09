@@ -1,0 +1,15 @@
+:root{ --bg:#0f172a; --card:#111827; --muted:#94a3b8; --brand:#4f46e5; --brand-600:#4f46e5; --brand-700:#4338ca; }
+*{ box-sizing:border-box; }
+html,body{ margin:0; padding:0; background:var(--bg); color:white; font:14px/1.4 ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; }
+.container{ width:320px; padding:16px; background:var(--card); }
+header{ display:flex; gap:10px; align-items:center; margin-bottom:12px; }
+.logo{ width:36px; height:36px; display:grid; place-items:center; border-radius:10px; background:linear-gradient(135deg, #22d3ee, #6366f1); }
+.title h1{ font-size:16px; margin:0; }
+.title p{ margin:2px 0 0; color:var(--muted); font-size:12px; }
+main{ display:grid; gap:8px; }
+.btn{ width:100%; padding:10px 12px; border-radius:10px; border:1px solid #1f2937; background:#0b1220; color:white; cursor:pointer; transition:.2s; }
+.btn:hover{ background:#0e1628; }
+.btn.primary{ background:var(--brand-600); border-color:transparent; }
+.btn.primary:hover{ background:var(--brand-700); }
+.btn.ghost{ background:transparent; border-color:#334155; color:#cbd5e1; }
+footer{ margin-top:12px; color:#64748b; text-align:center; font-size:11px; }

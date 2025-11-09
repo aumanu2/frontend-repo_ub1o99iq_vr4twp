@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Luxury Services Quick Access",
+  "version": "1.0.0",
+  "description": "One-click access to booking, offers, and your website from the Chrome toolbar.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Luxury Services"
+  }
+}
